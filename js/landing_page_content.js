@@ -5,9 +5,9 @@ let swiper = new Swiper(".wrapper", {
     autoplay: true,
     autoplayTimeout: 1000,
     autoplayHoverPause: true,
-    effect: "coverflow",
+    // effect: "coverflow",
     grabCursor: true,
-    // centeredSlides: true,
+    centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
       rotate: 0,

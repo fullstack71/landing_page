@@ -151,10 +151,10 @@
 
 .wrapper .swiper-wrapper .card {
     width: 20em;
-    height: 90%;
+    height: 100%;
     background: #fff;
     box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .card .image{
