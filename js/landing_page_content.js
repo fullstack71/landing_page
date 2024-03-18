@@ -1,19 +1,19 @@
 document.getElementById('hero_video').playbackRate = 0.4;
 
-
-
-var swiper = new Swiper( '.swiper-container.two', {
-    pagination: '.swiper-pagination',
-    paginationClickable: true,
-    effect: 'coverflow',
+let swiper = new Swiper(".wrapper", {
     loop: true,
-    centeredSlides: true,
-    slidesPerView: 'auto',
-    coverflow: {
-        rotate: 0,
-        stretch: 100,
-        depth: 150,
-        modifier: 1.5,
-        slideShadows : false,
-    }
-} );
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    effect: "coverflow",
+    grabCursor: true,
+    // centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 200,
+      modifier: 1,
+      slideShadows: false,
+    },
+  });
