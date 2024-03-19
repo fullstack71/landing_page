@@ -5,6 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    font-family: "Poppins", roboto;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: -2px;
+    word-spacing: 2px;
+}
+hr{
+    width: 100px;
+    margin: auto; 
+}
+h4{
+    color: #000;
+    font-family: "Poppins", roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+p{
+    color: #353535;
+    font-family: "Arial", roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+button{
+    margin-top: 25px;
+    padding: 20px 50px;
+    font-family: "Arial", roboto;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 33.6px;
+    word-spacing: 2px;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    color: #FFF;
+    background-color: #000;
+    border: 1px solid #F5F1E5;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
+}
+button:hover{
+    background-color: #00174B;
+    transition: 800ms;
+}
+
 .header_section nav{
     background-color: #ddddddaf;
 }
@@ -27,53 +76,6 @@
 .hero_content{
     margin-bottom: 100px;
 }
-/* .hero_content h1{
-    color: #fff;
-    font-family: "Poppins", roboto;
-    font-size: 80px;
-    font-weight: 100;
-    line-height: 84px;
-    letter-spacing: -2px;
-    word-spacing: 2px;
-    margin-top: 15%;
-} */
-/* .hero_content h1 span{
-    color: yellow;
-    font-size: 100px;
-} */
-
-.hero_btn{
-    padding: 20px 50px;
-    font-family: "Arial", roboto;
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 33.6px;
-    word-spacing: 2px;
-    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    color: #fff !important;
-    background-color: navy !important;
-    /* border: 1px solid #fff; */
-    border-radius: 50px;
-    box-shadow: 5px 5px 10px 0px #000;
-
-    /* font-size: 16px;
-    font-weight: 600;
-    background-color: #000 !important;
-    margin-top: 300px;
-    color: #fff!important;
-    padding: 10px 20px; */
-}
-.hero_btn:hover{
-    /* background-color: #fff !important; */
-    background-color: #00174B !important;
-    transition: 800ms;
-    /* color: #000 !important; */
-    /* outline: 1px solid #fff;
-    background-color: #333 !important; */
-}
-
-
 
 /* template section start */
 .template{
@@ -82,73 +84,29 @@
     text-align: center;
     margin: 100px auto;
 }
-.template h1{
-    font-family: "Poppins", roboto;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 84px;
-    letter-spacing: -2px;
-    word-spacing: 2px;
-}
-.template hr{
-    width: 100px;
-    margin: auto;
-}
 .template h4{
-    color: #000;
-    font-family: "Poppins", roboto;
-    font-size: 40px;
-    font-weight: 600;
     font-style: italic;
-    line-height: 56px;
-    letter-spacing: -1px;
-    word-spacing: 2px;
-}
-.template p{
-    color: #353535;
-    font-family: "Arial", roboto;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
 }
 .template p span{
     font-size: 1.2rem;
     color: #000;
 }
-.template button{
-    margin-top: 25px;
-    padding: 20px 50px;
-    font-family: "Arial", roboto;
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 33.6px;
-    word-spacing: 2px;
-    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    color: #FFF;
-    background-color: #000;
-    border: 1px solid #F5F1E5;
-    border-radius: 6px;
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
-}
-.template button:hover{
-    background-color: #00174B;
-    transition: 800ms;
-}
 
 /* swiper slider section starts */
+.container{
+    overflow: hidden;
+    margin:100px auto ;
+}
 .wrapper {
-    margin: 0 auto 100px;
+    margin: 0 auto;
     max-width: 100%;
 }
-
 .wrapper .swiper-wrapper {
     width: 100%;
     height: 35em;
     display: flex;
     align-items: center;
 }
-
 .wrapper .swiper-wrapper .card {
     width: 20em;
     height: 100%;
@@ -156,82 +114,112 @@
     box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
     margin-right: 50px;
 }
-
 .card .image{
     height: 100%;
     overflow: hidden;
 }
-
 .card .image img {
     width: 100%;
 }
 /* swiper slider section ends */
 
+/* summary section starts */
+.summary{
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.summary-content .content1, .content2, .content3{
+    text-align: center;
+}
+.summary-content p{
+    color: #fff;
+}
+
+/* summary section ends */
+
 
 
 @media only screen and (max-width: 600px) {
-    .template h1{
+    h1{
         font-size: 30px;
         margin-bottom: -15px;
     }
-    .template h4{
+    h4{
         font-size: 20px;
     }
-    .template button{
+    button{
         margin-top: 25px;
         padding: 10px 20px;
         font-size: 14px;
         font-weight: 400;
     }
+    p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    .template h1{
+    h1{
         font-size: 40px;
     }
-    .template h4{
+    h4{
         font-size: 30px;
     }
-    .template button{
+    button{
         margin-top: 25px;
         padding: 14px 30px;
         font-size: 18px;
         font-weight: 500;
     }
+    p{
+        font-size: 17px;
+        font-weight: 350;
+        line-height: 22px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-    .template h1{
+    h1{
         font-size: 40px;
     }
-    .template h4{
+    h4{
         font-size: 30px;
         margin-top: 20px;
     }
-    .template button{
+    button{
         margin-top: 25px;
         padding: 18px 45px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .template h1{
+    h1{
         font-size: 50px;
     }
-    .template h4{
+    h4{
         font-size: 40px;
     }
-    .template button{
+    button{
         margin-top: 25px;
         padding: 20px 50px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .template h1{
+    h1{
         font-size: 60px;
     }
-    .template h4{
+    h4{
         font-size: 50px;
     }
 }
