@@ -1,11 +1,11 @@
 * {
   font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif
 }
-.content_section
+/* .content_section
 {   height: 600px;
     background: rgb(158,209,243);
     background: linear-gradient(90deg, rgba(158,209,243,1) 17%, rgba(204,225,237,1) 100%);
-}
+} */
 
 .header_section .navbar .container-fluid
 {
